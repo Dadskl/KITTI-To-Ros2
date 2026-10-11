@@ -101,7 +101,7 @@ colcon test-result --verbose
 
 测试使用模拟数据，覆盖标定转换、数据整理和 ROS 2 同步发布，不需要真实数据或 SLAM。
 
-## 与旧项目的关系
+## 与ORB项目的关系
 
 旧命令 `ros2 run orbslam3_dense_ros2 kitti_player` 及旧 Python 脚本仅作为兼容入口，
 要求先构建并 source 本包。新项目应直接使用上述 `ros2 run kitti_dataset_tools ...` 命令。
